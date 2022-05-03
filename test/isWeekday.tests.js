@@ -8,7 +8,7 @@ describe('Test for my isWeekday function' , function(){
 
     });
     it("it should return 'true' if it starts with 'M || T  || W || T || F' " , function(){
-        assert.equal(true,isWeekday("Friday"));
+        assert.equal(true,isWeekday("Tuesday"));
 
     });
 
